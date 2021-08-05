@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: provision/Dockerfile
+    container_name: converter__app
+    restart: unless-stopped
+    volumes:
+      - .:/var/www

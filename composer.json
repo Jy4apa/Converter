@@ -1,0 +1,21 @@
+{
+  "name": "converter/converter",
+  "description": "some description",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikita Yarkov",
+      "email": "xjyx10@mail.ru",
+      "role": "Creator / Main Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "mpdf/mpdf": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
